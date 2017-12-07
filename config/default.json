@@ -1,0 +1,16 @@
+{
+    "ujob": {
+      "port": 8000,
+      "secret": "ilovescotchyscotch",
+      "dbConfig": {
+        "host": "localhost",
+        "database": "ujobs",
+        "user": "root",
+        "password": "Ph3059833683"
+      },
+      "authConfig": {
+        "memLimit": 8192,
+        "opslimit": 8192
+      }
+    }
+  }

@@ -1,0 +1,33 @@
+{
+  "name": "ujob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha ./*/test --recursive --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "3.x.x",
+    "body-parser": "1.x.x",
+    "config": "1.x.x",
+    "cookie-parser": "1.x.x",
+    "express": "4.x.x",
+    "express-validation": "1.x.x",
+    "joi": "13.x.x",
+    "jsonwebtoken": "8.x.x",
+    "mysql": "2.x.x",
+    "secure-password": "2.x.x",
+    "winston": "2.x.x"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.5.3"
+  },
+  "standard": {
+    "globals": [ "describe", "it", "beforeEach", "afterEach" ]
+  }
+}
